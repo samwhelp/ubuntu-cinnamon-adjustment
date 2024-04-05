@@ -1,6 +1,6 @@
 
 
-# Mousepad
+# Gedit
 
 
 
@@ -9,7 +9,8 @@
 
 | Config File Path |
 | --- |
-| [/usr/share/glib-2.0/schemas/50_mousepad.gschema.override](./asset/overlay/usr/share/glib-2.0/schemas/50_mousepad.gschema.override) |
+| [/usr/share/glib-2.0/schemas/50_gedit.gschema.override](./asset/overlay/usr/share/glib-2.0/schemas/50_gedit.gschema.override) |
+| [~/.config/gedit/tools/open-terminal-here](./asset/overlay/etc/skel/.config/gedit/tools/open-terminal-here) |
 
 
 
@@ -18,7 +19,7 @@
 
 | Ubuntu Package |
 | --- |
-| [mousepad](https://packages.ubuntu.com/noble/mousepad) |
+| [gedit](https://packages.ubuntu.com/noble/gedit) |
 
 
 

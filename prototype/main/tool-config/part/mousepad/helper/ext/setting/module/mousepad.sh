@@ -97,6 +97,9 @@ mousepad_prototype_install () {
 
 	mousepad_gschema_put_all
 
+	sys_gsettings_schemas_update
+
+
 	return 0
 }
 

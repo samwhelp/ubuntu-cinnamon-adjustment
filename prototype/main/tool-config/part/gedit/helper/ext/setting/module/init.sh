@@ -13,10 +13,10 @@
 
 
 ##
-## Load: Setting / Module / Mousepad
+## Load: Setting / Module / Gedit
 ##
 
-. "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/mousepad.sh"
+. "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/gedit.sh"
 
 
 ##
