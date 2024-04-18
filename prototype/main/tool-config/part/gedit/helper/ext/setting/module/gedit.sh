@@ -144,29 +144,122 @@ gedit_prototype_install () {
 
 gedit_settings_set_all () {
 
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor auto-indent true"
 	gsettings set org.gnome.gedit.preferences.editor auto-indent true
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor auto-save false"
 	gsettings set org.gnome.gedit.preferences.editor auto-save false
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor auto-save-interval 10"
 	gsettings set org.gnome.gedit.preferences.editor auto-save-interval 10
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor background-pattern 'none'"
 	gsettings set org.gnome.gedit.preferences.editor background-pattern 'none'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor bracket-matching true"
 	gsettings set org.gnome.gedit.preferences.editor bracket-matching true
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor create-backup-copy false"
 	gsettings set org.gnome.gedit.preferences.editor create-backup-copy false
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor display-line-numbers true"
 	gsettings set org.gnome.gedit.preferences.editor display-line-numbers true
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor display-right-margin true"
 	gsettings set org.gnome.gedit.preferences.editor display-right-margin true
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor editor-font 'Monospace 14'"
 	gsettings set org.gnome.gedit.preferences.editor editor-font 'Monospace 14'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor ensure-trailing-newline true"
 	gsettings set org.gnome.gedit.preferences.editor ensure-trailing-newline true
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor highlight-current-line true"
 	gsettings set org.gnome.gedit.preferences.editor highlight-current-line true
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor insert-spaces false"
 	gsettings set org.gnome.gedit.preferences.editor insert-spaces false
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor max-undo-actions 2000"
 	gsettings set org.gnome.gedit.preferences.editor max-undo-actions 2000
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor restore-cursor-position true"
 	gsettings set org.gnome.gedit.preferences.editor restore-cursor-position true
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor right-margin-position 80"
 	gsettings set org.gnome.gedit.preferences.editor right-margin-position 80
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor scheme 'oblivion'"
 	gsettings set org.gnome.gedit.preferences.editor scheme 'oblivion'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor search-highlighting true"
 	gsettings set org.gnome.gedit.preferences.editor search-highlighting true
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor smart-home-end 'after'"
 	gsettings set org.gnome.gedit.preferences.editor smart-home-end 'after'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor syntax-highlighting true"
 	gsettings set org.gnome.gedit.preferences.editor syntax-highlighting true
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor tabs-size 4"
 	gsettings set org.gnome.gedit.preferences.editor tabs-size 4
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor use-default-font false"
 	gsettings set org.gnome.gedit.preferences.editor use-default-font false
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor wrap-last-split-mode 'word'"
 	gsettings set org.gnome.gedit.preferences.editor wrap-last-split-mode 'word'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.gedit.preferences.editor wrap-mode 'word'"
 	gsettings set org.gnome.gedit.preferences.editor wrap-mode 'word'
+
+
 
 
 	return 0
