@@ -73,7 +73,14 @@ gedit_var_dump
 
 gedit_config_install () {
 
-	util_error_echo "gedit_config_install"
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## gedit_config_install"
+	util_error_echo "##"
+	util_error_echo
+
+
+
 
 	gedit_settings_set_all
 
@@ -81,28 +88,49 @@ gedit_config_install () {
 
 
 	return 0
+
 }
 
 
 gedit_asset_install () {
 
-	#util_error_echo "gedit_asset_install"
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## gedit_asset_install"
+	util_error_echo "##"
+	util_error_echo "## > Do Nothing"
+	util_error_echo "##"
+	util_error_echo
 
-	util_error_echo "!!! Do Nothing !!!"
+
+
 
 	return 0
+
 }
 
 
 gedit_prototype_install () {
 
-	#util_error_echo "gedit_prototype_install"
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## gedit_prototype_install"
+	util_error_echo "##"
+	util_error_echo
+
+
+
 
 	gedit_gschema_put_all
 
-	sys_gsettings_schemas_update
+
+
+
+	#sys_gsettings_schemas_update
+
 
 	return 0
+
 }
 
 ##
@@ -142,6 +170,7 @@ gedit_settings_set_all () {
 
 
 	return 0
+
 }
 
 ##
@@ -168,7 +197,10 @@ gedit_gschema_put_all () {
 	sudo install -Dm644 "${source_gschema_override_file_path}" "${target_gschema_override_file_path}"
 
 
+
+
 	return 0
+
 }
 
 ##
@@ -192,6 +224,10 @@ gedit_config_install_by_dir () {
 	echo "cp -rf ./asset/overlay/etc/skel/. ${HOME}"
 	cp -rf "./asset/overlay/etc/skel/." "${HOME}"
 
+
+
+
+	return 0
 
 }
 

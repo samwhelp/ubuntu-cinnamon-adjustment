@@ -41,7 +41,11 @@ main_config_install () {
 
 	gedit_config_install
 
+
+
+
 	return 0
+
 }
 
 ##
